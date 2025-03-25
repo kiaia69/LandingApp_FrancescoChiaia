@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Platform } from "react-native";
 import colors from "../../constants/colors";
 import typography from "../../constants/typography";
 
@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
   container: {
     backgroundColor: colors.background,
     padding: 20,
-    paddingTop: 30,
+    paddingTop: Platform.OS === "android" ? 16 : 80,
     paddingBottom: 20,
     flexDirection: "row",
     justifyContent: "space-between",
@@ -25,5 +25,8 @@ export const styles = StyleSheet.create({
         fontFamily: typography.fontFamily.regular,
         fontSize: typography.fontSize.lg,
         marginRight: 8,
+        fontWeight: '600',
     },
+    icon: {
+    }
 });
