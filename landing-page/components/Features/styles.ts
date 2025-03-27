@@ -20,7 +20,8 @@ export const styles = StyleSheet.create({
     color: colors.textDark,
     textAlign: "center",
     marginBottom: 20,
-    maxWidth: 300,
+    paddingHorizontal: 10,
+    lineHeight: 28, 
   },
   featureItem: {
     flexDirection: "row",
@@ -40,9 +41,12 @@ export const styles = StyleSheet.create({
     marginRight: 15,
   },  
   featureText: {
+    alignSelf: "center",
+    textAlignVertical: "center",
+    textAlign: "center",
     alignContent: "center",
-    justifyContent: "flex-start",
-    fontSize: 22,
+    alignItems: "center",
+    fontSize: 20,
     color: colors.textDark,
   },
   image: {

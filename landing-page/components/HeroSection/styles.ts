@@ -32,6 +32,7 @@ export const styles = StyleSheet.create({
         color: colors.textDark,
         marginBottom: 20,
         textAlign: 'center',
+        lineHeight: 23,
     },
     buttonStarted: {
         flexDirection: "row",

@@ -20,6 +20,7 @@ export const styles = StyleSheet.create({
     },
     subtitle: {
         fontSize: typography.fontSize.md,
+        paddingHorizontal: 20,
         color: colors.textDark,
         textAlign: "center",
     },

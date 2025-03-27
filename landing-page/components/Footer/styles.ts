@@ -47,6 +47,6 @@ export const styles = StyleSheet.create({
         fontWeight: "400",
         paddingLeft: 15,
         fontSize: 14,
-        paddingBottom: 10,
+        paddingBottom: 30,
     },
 });

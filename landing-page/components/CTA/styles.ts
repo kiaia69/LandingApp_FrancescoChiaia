@@ -23,14 +23,14 @@ export const styles = StyleSheet.create({
         fontWeight: "600",
         color: colors.textDark,
         textAlign: "center",
-        width: "90%",
+        paddingHorizontal: 20,
         lineHeight: 40,
     },
     subtitle: {
         fontSize: typography.fontSize.md,
         color: colors.textDark,
         textAlign: "center",
-        width: "90%",
+        paddingHorizontal: 20,
     },
     button: {
         flexDirection: "row",

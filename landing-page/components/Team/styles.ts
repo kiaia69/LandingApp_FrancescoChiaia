@@ -18,6 +18,7 @@ export const styles = StyleSheet.create({
     subtitle: {
         fontSize: typography.fontSize.md,
         fontWeight: "400",
+        paddingHorizontal: 10,
         color: colors.textDark,
         textAlign: "center",
         marginBottom: 40,
@@ -27,10 +28,10 @@ export const styles = StyleSheet.create({
     },
     card: {
         backgroundColor: "white",
-        paddingTop: 40,
+        paddingTop: 50,
         paddingRight: 35,
         paddingLeft: 35,
-        paddingBottom: 40,
+        paddingBottom: 50,
         borderRadius: 20,
         marginBottom: 20,
         alignItems: "center",
@@ -60,7 +61,9 @@ export const styles = StyleSheet.create({
         fontSize: typography.fontSize.md,
         color: colors.textDark,
         textAlign: "center",
-        marginBottom: 10,
+        paddingHorizontal: 10,
+        marginBottom: 20,
+        lineHeight: 23,
     },
     socialContainer: {
         flexDirection: "row",
