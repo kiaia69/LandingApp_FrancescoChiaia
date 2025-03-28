@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Image, FlatList, TouchableOpacity } from "react-native";
+import { View, Text, Image, FlatList, TouchableOpacity, Linking} from "react-native";
 import { styles } from "./styles";
 
 const integrationsData = [
@@ -12,6 +12,11 @@ const integrationsData = [
 ];
 
 const Integrations = () => {
+
+    const handlePress = () => {
+        Linking.openURL("https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-lp-ui-kit&utm_medium=figma-samples")
+    }
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>More than 50 Integrations</Text>
@@ -30,7 +35,7 @@ const Integrations = () => {
                 )}
             />
 
-                <TouchableOpacity style={styles.button}>
+                <TouchableOpacity style={styles.button} onPress={handlePress}>
                 <Text style={styles.buttonText}>View All Integrations</Text>
             </TouchableOpacity>
         </View>

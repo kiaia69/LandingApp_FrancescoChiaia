@@ -68,6 +68,10 @@ export const styles = StyleSheet.create({
     icon: {
     },
     image: {
-        marginTop: 28,        
-        },
+        marginTop: 28,
+    },
+    link: {
+        color: "blue",
+        textAlign: "center"
+    },
 });
